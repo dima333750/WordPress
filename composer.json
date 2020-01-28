@@ -1,0 +1,15 @@
+{
+  "name": "mwpastore/composer-lockout",
+  "description": "Prevent composer-managed WordPress objects being changed through the web interface.",
+  "type": "wordpress-plugin",
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "Mike Pastore",
+      "email": "mike@oobak.org"
+    }
+  ],
+  "require": {
+    "composer/installers": "^1.1"
+  }
+}

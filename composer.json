@@ -1,6 +1,5 @@
 {
     "name": "it-for-free/php-examples",
-    "type": "php-class",
     "description": "Simple example of php view -- MVC, пример реализации представляения, отделения php от html",
     "keywords": ["php", "itforfree", "mvc", "view", "html"],
     "homepage": "ссылкаНаДомашнююСтраницу",

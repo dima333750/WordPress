@@ -1,21 +1,28 @@
 {
-"require": {
-"ext-mbstring": "*"
-"doctrine/common": "2.3.0",
-"doctrine/migrations": "dev-master",
-"doctrine/dbal": "2.3.0",
-"doctrine/orm": "2.3.0",
-"doctrine/mongodb": "1.0.x-dev",
-"doctrine/mongodb-odm": "1.0.x-dev",
-"simukti/zf1": "1.12.0",
-"zendframework/zendframework": "2.0.3"
-},
-"autoload": {
-"psr-0": {
-"ZendExtra": "vendor/netandreus/zend-extra/lib/",
-"DoctrineExtra" : "vendor/netandreus/doctrine-extra/lib/",
-"MyProject": "vendor/myvendor/myproject/lib/",
-"Hydrators": "misc/cache/",
-"": "app/default/models/"
-}
+    "name": "composer/composer",
+    "type": "library",
+    "description": "Composer helps you declare, manage and install dependencies of PHP projects. It ensures you have the right stack everywhere.",
+    "keywords": [
+        "package",
+        "dependency",
+        "autoload"
+    ],
+    "homepage": "https://getcomposer.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nils Adermann",
+            "email": "naderman@naderman.de",
+            "homepage": "http://www.naderman.de"
+        },
+        {
+            "name": "Jordi Boggiano",
+            "email": "j.boggiano@seld.be",
+            "homepage": "http://seld.be"
+        }
+    ],
+    "require": {
+        "ext-mbstring": "*"
+        "php": "^5.3.2 || ^7.0",
+    }
 }

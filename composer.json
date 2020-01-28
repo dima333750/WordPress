@@ -1,15 +1,21 @@
 {
-    "name": "it-for-free/php-examples",
-    "description": "Simple example of php view -- MVC, пример реализации представляения, отделения php от html",
-    "keywords": ["php", "itforfree", "mvc", "view", "html"],
-    "homepage": "ссылкаНаДомашнююСтраницу",
-     
-    "autoload": {
-        "psr-4": {
-            "ItForFree\\PhpExamples\\": ""
-        }
-    }
-  "require": {
-  "ext-mbstring": "*"
-  }
+"require": {
+"ext-mbstring": "*"
+"doctrine/common": "2.3.0",
+"doctrine/migrations": "dev-master",
+"doctrine/dbal": "2.3.0",
+"doctrine/orm": "2.3.0",
+"doctrine/mongodb": "1.0.x-dev",
+"doctrine/mongodb-odm": "1.0.x-dev",
+"simukti/zf1": "1.12.0",
+"zendframework/zendframework": "2.0.3"
+},
+"autoload": {
+"psr-0": {
+"ZendExtra": "vendor/netandreus/zend-extra/lib/",
+"DoctrineExtra" : "vendor/netandreus/doctrine-extra/lib/",
+"MyProject": "vendor/myvendor/myproject/lib/",
+"Hydrators": "misc/cache/",
+"": "app/default/models/"
+}
 }
